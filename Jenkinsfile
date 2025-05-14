@@ -18,9 +18,9 @@ pipeline {
 		}
 	}
 	post {
-		    always {
-			    echo 'building..'
-		    }
+            always {
+                echo 'building..'
+            }
             success {
                 echo 'success'
             }
